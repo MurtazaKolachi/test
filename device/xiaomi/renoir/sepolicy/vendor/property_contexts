@@ -1,0 +1,29 @@
+# Camera
+persist.camera.                     u:object_r:vendor_camera_prop:s0
+persist.vendor.camera               u:object_r:vendor_camera_prop:s0
+vendor.camera.                      u:object_r:vendor_camera_prop:s0
+vendor.camera.sensor.logsystem      u:object_r:vendor_camera_prop:s0
+vendor.camera.sensor.               u:object_r:vendor_camera_sensor_prop:s0
+persist.vendor.aiie_capture_log.debug   u:object_r:vendor_camera_prop:s0
+ro.boot.camera.                     u:object_r:vendor_camera_prop:s0
+ro.boot.camera.config               u:object_r:vendor_camera_sensor_prop:s0
+persist.vendor.low.cutoff u:object_r:vendor_camera_prop:s0
+ro.vendor.audio.us.proximity            u:object_r:vendor_camera_prop:s0
+
+# Fastcharge HAL
+persist.vendor.sec.fastchg_enabled              u:object_r:vendor_fastcharge_prop:s0
+
+# Fingerprint
+persist.vendor.sys.fp.              u:object_r:vendor_fp_prop:s0
+persist.vendor.sys.fp.info          u:object_r:vendor_fp_info_prop:s0
+persist.vendor.sys.fp.uid           u:object_r:vendor_fp_info_prop:s0
+ro.hardware.fp.udfps                u:object_r:vendor_fp_prop:s0
+
+# Mlipay
+persist.vendor.sys.pay.             u:object_r:vendor_mlipay_prop:s0
+persist.vendor.sys.provision.status u:object_r:vendor_mlipay_prop:s0
+
+# ZRAM
+persist.vendor.zram.size 	    u:object_r:vendor_zram_prop:s0
+persist.vendor.zram.comp_algorithm  u:object_r:vendor_zram_prop:s0
+persist.vendor.vm.swappiness	    u:object_r:vendor_zram_prop:s0

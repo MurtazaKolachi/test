@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "MiuiCameraOverlay",
+    product_specific: true,
+}
+

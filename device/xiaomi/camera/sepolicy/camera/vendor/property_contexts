@@ -1,0 +1,2 @@
+# Camera Vendor Props
+persist.vendor.low.cutoff                            u:object_r:vendor_camera_prop:s0

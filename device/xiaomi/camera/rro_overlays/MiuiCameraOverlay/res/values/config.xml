@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Leica Camera Overlay Configuration for Poco F3 -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+   <!-- enable to use Parallel processing and it's features in Photo modes with Rear cameras,
+        main features are Leica/Film filters, AI Watermark, Supermoon, Leica/Redmi watermarks
+        Parallel processing is usually broken on AOSP and MIUI/HyperOS ports, 
+        on AOSP it may be fixed by including some libs, also heavily depends on Device Tree and ROM sources -->
+   <bool name="pref_camera_parallel_process_enable_default">true</bool>
+
+   <!-- Portrait Mode -->
+   <!-- Disable Portrait Fix by default -->
+   <bool name="pref_portraitfix_default">false</bool>
+
+   <!-- Disable Experimental Portrait Fix by default -->
+   <bool name="pref_experimental_portrait_default">false</bool>
+
+   <!-- Enable Parallel Processing for Portrait Mode by default -->
+   <bool name="pref_parallelportrait_default">true</bool>
+
+   <!-- Enable 4k 30fps Support -->
+   <bool name="pref_4k_default">true</bool>
+
+   <!-- Experimental - Enable 4k 60fps Support -->
+   <bool name="pref_4k60_default">true</bool>
+
+   <!-- Enable Universal Settings by default -->
+   <bool name="use_universal_settings">true</bool>
+
+   <!-- Enable Smart Tips Support -->
+   <bool name="pref_camera_smart_tip_default">true</bool>
+
+   <!-- Enable QR Codes Scan Support -->
+   <bool name="pref_scan_qrcode_default">true</bool>
+
+   <!-- Night Mode -->
+   <!-- Enable Parallel Processing for Night Mode -->
+   <bool name="pref_parallelnight_default">true</bool>
+
+   <!-- Features -->
+   <!-- Set Documents Ver. 2 by default -->
+   <string name="pref_documents_default">2</string>
+
+   <!-- Enable AI for Front Camera by default -->
+   <bool name="pref_frontAI_default">true</bool>
+
+   <!-- Enable 0.5x UltraWide lens by default -->
+   <!-- 0 - Default, 1 - 0.5x, 2 - 0.6x -->
+   <string name="pref_uw_default">1</string>
+
+</resources>

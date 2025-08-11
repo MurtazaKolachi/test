@@ -1,0 +1,48 @@
+// MiuiCamera library symlinks
+install_symlink {
+    name: "miui_camera_libcamera_algoup_symlink",
+    installed_location: "priv-app/MiuiCamera/lib/arm64/libcamera_algoup_jni.xiaomi.so",
+    symlink_target: "/system/lib64/libcamera_algoup_jni.xiaomi.so",
+}
+
+install_symlink {
+    name: "miui_camera_libcamera_mianode_symlink",
+    installed_location: "priv-app/MiuiCamera/lib/arm64/libcamera_mianode_jni.xiaomi.so",
+    symlink_target: "/system/lib64/libcamera_mianode_jni.xiaomi.so",
+}
+
+install_symlink {
+    name: "miui_camera_libmicampostproc_symlink",
+    installed_location: "priv-app/MiuiCamera/lib/arm64/libmicampostproc_client.so",
+    symlink_target: "/system/lib64/libmicampostproc_client.so",
+}
+
+install_symlink {
+    name: "miui_camera_campostproc_vendor_symlink",
+    installed_location: "priv-app/MiuiCamera/lib/arm64/vendor.xiaomi.hardware.campostproc@1.0.so",
+    symlink_target: "/system/lib64/vendor.xiaomi.hardware.campostproc@1.0.so",
+}
+
+install_symlink {
+    name: "miui_camera_libOpenCL_symlink",
+    installed_location: "priv-app/MiuiCamera/lib/arm64/libOpenCL_system.so",
+    symlink_target: "/system/lib64/libOpenCL_system.so",
+}
+
+install_symlink {
+    name: "miui_camera_libmqsas_symlink",
+    installed_location: "priv-app/MiuiCamera/lib/arm64/libmqsas.so",
+    symlink_target: "/system/lib64/libmqsas.so",
+}
+
+install_symlink {
+    name: "miui_camera_libcameraimpl_symlink",
+    installed_location: "priv-app/MiuiCamera/lib/arm64/libcameraimpl.so",
+    symlink_target: "/system/lib64/libcameraimpl.so",
+}
+
+install_symlink {
+    name: "miui_camera_libopencl_camera_symlink",
+    installed_location: "priv-app/MiuiCamera/lib/arm64/libopencl-camera.so",
+    symlink_target: "/system/lib64/libopencl-camera.so",
+}
